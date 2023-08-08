@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
+      <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -64,7 +69,7 @@
         </div>
       </section>
       <!-- SECTION 2 (PRIVILEGES) -->
-      <section>
+      <section class="privileges-section">
         <div class="container">
           <h2 class="visually-hidden">Privileges</h2>
           <ul class="list list-priveleges">
@@ -105,7 +110,7 @@
         <div class="container">
           <h2 class="second-text wawd-text">What are we doing</h2>
           <ul class="list list-wawd">
-            <li>
+            <li class="wawd-section-list">
               <img
                 src="./images/image1.jpg"
                 alt="imac"
@@ -113,7 +118,7 @@
                 height="300"
               />
             </li>
-            <li>
+            <li class="wawd-section-list">
               <img
                 src="./images/image2.jpg"
                 alt="iphone"
@@ -121,7 +126,7 @@
                 height="300"
               />
             </li>
-            <li>
+            <li class="wawd-section-list">
               <img
                 src="./images/image3.jpg"
                 alt="iphone with macbook"
@@ -146,8 +151,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="main-text text-team">Mark Guerrero</h3>
-              <p class="main-sub-text text-team-sub">Product Designer</p>
+              <div class="team-name-pos">
+                <h3 class="main-text text-team">Mark Guerrero</h3>
+                <p class="main-sub-text text-team-sub">Product Designer</p>
+              </div>
             </li>
             <li class="employee">
               <img
@@ -157,8 +164,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="main-text text-team">Tom Ford</h3>
-              <p class="main-sub-text text-team-sub">Frontend Developer</p>
+              <div class="team-name-pos">
+                <h3 class="main-text text-team">Tom Ford</h3>
+                <p class="main-sub-text text-team-sub">Frontend Developer</p>
+              </div>
             </li>
             <li class="employee">
               <img
@@ -168,8 +177,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="main-text text-team">Camila Garcia</h3>
-              <p class="main-sub-text text-team-sub">Marketing</p>
+              <div class="team-name-pos">
+                <h3 class="main-text text-team">Camila Garcia</h3>
+                <p class="main-sub-text text-team-sub">Marketing</p>
+              </div>
             </li>
             <li class="employee">
               <img
@@ -179,8 +190,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="main-text text-team">Daniel Wilson</h3>
-              <p class="main-sub-text text-team-sub">UI Designer</p>
+              <div class="team-name-pos">
+                <h3 class="main-text text-team">Daniel Wilson</h3>
+                <p class="main-sub-text text-team-sub">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>

@@ -173,6 +173,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-header-text:hover,
@@ -241,7 +242,6 @@ img {
   /* height: 600px; */
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 60px;
 }
 
 .hero-button {
@@ -278,6 +278,10 @@ img {
 
 /* PRIVILEGES SECTION */
 
+.privileges-section {
+  padding: 120px 0;
+}
+
 .list-priveleges {
   display: flex;
   gap: 24px;
@@ -300,14 +304,15 @@ img {
 }
 
 .wawd-text {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .wawd-section {
   padding-bottom: 120px;
 }
 
-/*  */
+.wawd-section-list {
+}
 
 /* OUR TEAM SECTION */
 
@@ -324,7 +329,7 @@ img {
 }
 
 .our-team-text {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .list-team {
@@ -332,18 +337,17 @@ img {
   gap: 24px;
 }
 
-.team-photo {
-  padding-bottom: 32px;
-}
-
 .text-team {
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .text-team-sub {
   text-align: center;
-  padding-bottom: 32px;
+}
+
+.team-name-pos {
+  padding: 32px 0;
 }
 
 /* PORTFOLIO PAGE SECTION */
@@ -373,7 +377,7 @@ img {
 }
 
 .portfolio-main-text {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-buttons {
