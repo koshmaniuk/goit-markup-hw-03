@@ -123,7 +123,7 @@ img {
   overflow: hidden;
 }
 
-/* HEADER */
+/*  HEADER */
 
 .header {
   border-bottom: 1px solid var(--accent);
@@ -239,7 +239,6 @@ img {
 .hero-section {
   color: var(--white-background);
   background-color: var(--dark);
-  /* height: 600px; */
   padding-top: 188px;
   padding-bottom: 188px;
 }
